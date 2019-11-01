@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52546" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:56:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52546" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:56:18Z">
+      <class name="Project_Test1.homepage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Project_Test1.homepage@b7f003]" name="setup" is-config="true" duration-ms="24393" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Project_Test1.homepage@b7f003]" name="launchbrowser" duration-ms="26672" started-at="2019-11-01T17:55:50Z" finished-at="2019-11-01T17:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:Project_Test1.homepage@b7f003]" name="verifyTitle" duration-ms="72" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyurl()[pri:0, instance:Project_Test1.homepage@b7f003]" name="verifyurl" duration-ms="56" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project_Test1.homepage@b7f003]" name="tearDown" is-config="true" duration-ms="1105" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Project_Test1.homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
