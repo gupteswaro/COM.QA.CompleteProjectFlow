@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52546" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:56:18Z">
+  <suite name="Default suite" duration-ms="69042" started-at="2019-11-02T05:56:50Z" finished-at="2019-11-02T05:57:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52546" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:56:18Z">
+    <test name="Default test" duration-ms="69042" started-at="2019-11-02T05:56:50Z" finished-at="2019-11-02T05:57:59Z">
+      <class name="Project_Test1.Test4">
+        <test-method status="PASS" signature="getMessagefromGupt2()[pri:0, instance:Project_Test1.Test4@60b431]" name="getMessagefromGupt2" duration-ms="100" started-at="2019-11-02T05:56:50Z" finished-at="2019-11-02T05:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessagefromGupt2 -->
+      </class> <!-- Project_Test1.Test4 -->
+      <class name="Project_Test1.Test3">
+        <test-method status="PASS" signature="getMessagefromGupt1()[pri:0, instance:Project_Test1.Test3@12679d6]" name="getMessagefromGupt1" duration-ms="10" started-at="2019-11-02T05:56:50Z" finished-at="2019-11-02T05:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessagefromGupt1 -->
+      </class> <!-- Project_Test1.Test3 -->
       <class name="Project_Test1.homepage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Project_Test1.homepage@b7f003]" name="setup" is-config="true" duration-ms="24393" started-at="2019-11-01T17:55:26Z" finished-at="2019-11-01T17:55:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Project_Test1.homepage@1758f2a]" name="setup" is-config="true" duration-ms="57399" started-at="2019-11-02T05:56:50Z" finished-at="2019-11-02T05:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Project_Test1.homepage@b7f003]" name="launchbrowser" duration-ms="26672" started-at="2019-11-01T17:55:50Z" finished-at="2019-11-01T17:56:17Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Project_Test1.homepage@1758f2a]" name="launchbrowser" duration-ms="9011" started-at="2019-11-02T05:57:48Z" finished-at="2019-11-02T05:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:Project_Test1.homepage@b7f003]" name="verifyTitle" duration-ms="72" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:17Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:Project_Test1.homepage@1758f2a]" name="verifyTitle" duration-ms="95" started-at="2019-11-02T05:57:57Z" finished-at="2019-11-02T05:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="verifyurl()[pri:0, instance:Project_Test1.homepage@b7f003]" name="verifyurl" duration-ms="56" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:17Z">
+        <test-method status="PASS" signature="verifyurl()[pri:0, instance:Project_Test1.homepage@1758f2a]" name="verifyurl" duration-ms="55" started-at="2019-11-02T05:57:57Z" finished-at="2019-11-02T05:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyurl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project_Test1.homepage@b7f003]" name="tearDown" is-config="true" duration-ms="1105" started-at="2019-11-01T17:56:17Z" finished-at="2019-11-01T17:56:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project_Test1.homepage@1758f2a]" name="tearDown" is-config="true" duration-ms="1936" started-at="2019-11-02T05:57:57Z" finished-at="2019-11-02T05:57:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Project_Test1.homepage -->
+      <class name="Project_Test1.Test2">
+        <test-method status="PASS" signature="getMessagefromGupt()[pri:0, instance:Project_Test1.Test2@720b71]" name="getMessagefromGupt" duration-ms="9" started-at="2019-11-02T05:57:59Z" finished-at="2019-11-02T05:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessagefromGupt -->
+      </class> <!-- Project_Test1.Test2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
