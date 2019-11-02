@@ -35,7 +35,7 @@ public class homepage {
 	public void verifyTitle()
 	{
 		String title=driver.getTitle();
-		System.out.println("Title of the url is "+title);
+		System.out.println("Title is "+title);
 	}
 	
 	@AfterClass
