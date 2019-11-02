@@ -12,7 +12,7 @@ public class homepage {
 	@BeforeClass
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver","F://Complete_Project_Test//COM.QA.CompleteProjectFlow//src//test//resources//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//src//test//resources//chromedriver.exe");
 		driver= new ChromeDriver();
 	}
 	
